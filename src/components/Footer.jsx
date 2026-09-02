@@ -25,11 +25,10 @@ const Footer = () => {
         <div className="border-t border-accent-gold pt-8 mt-12">
           <div className="max-w-4xl mx-auto text-center text-sm font-sans text-primary-secondary">
             <p className="mb-4">
-              Dra. Paula Tavares, Especialista em Harmonização Facial, CRF-SP 143129. Atendimento na HERA ESTETICA - Vila Leopoldina, São Paulo (SP).
+              Dra. Paula Tavares, Especialista em Harmonização Facial, CRO-SP 143129. Atendimento na HERA ESTETICA - Vila Leopoldina, São Paulo (SP).
             </p>
             <p className="mb-4">
-              Os procedimentos listados são de natureza estética e realizados dentro do escopo de atuação de 
-              farmacêutico esteta regulamentado pelo CFF/CRF. Resultados podem variar de pessoa para pessoa e 
+              Os procedimentos listados são de natureza estética. Resultados podem variar de pessoa para pessoa e 
               dependem de avaliação individual. Nenhuma informação nesta página substitui a avaliação presencial.
             </p>
             <a

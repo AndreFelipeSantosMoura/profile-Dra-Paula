@@ -32,7 +32,7 @@ const Hero = () => {
           <div className="flex justify-center md:justify-end">
             <img
               src={heroImage}
-              alt="Dra. Juliana - Harmonização Facial"
+              alt="Dra. Paula Tavares - Harmonização Facial"
               className="rounded-lg shadow-2xl max-w-full h-auto object-cover"
               style={{ maxHeight: '600px' }}
             />

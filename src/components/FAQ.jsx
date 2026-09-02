@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const FAQ = () => {
-  const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState(0);
 
   const faqs = [
     {
@@ -17,8 +17,8 @@ const FAQ = () => {
       answer: "Não. Cada indicação é discutida na avaliação, com previsibilidade de investimento. Você decide o que faz sentido pra sua rotina, sem pacote fechado."
     },
     {
-      question: "Atende as duas unidades com a mesma equipe?",
-      answer: "Sim, a Dra. Paula atende pessoalmente na HERA ESTETICA em Vila Leopoldina, São Paulo, sempre com hora marcada."
+      question: "Onde é realizado o atendimento?",
+      answer: "O atendimento é realizado na HERA ESTETICA, localizada na R. Passo da Pátria, 78 - Vila Leopoldina, São Paulo - SP, sempre com hora marcada."
     }
   ];
 
