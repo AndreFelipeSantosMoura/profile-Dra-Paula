@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Fundo principal (Substitui o branco puro) */
+  --bg-primary: #F7F4EF; 
+  
+  /* Contraste principal para textos/títulos (Substitui o preto puro) */
+  --text-primary: #3D322B; 
+  
+  /* Textos secundários, bordas e divisores */
+  --text-secondary: #9E8F85; 
+  
+  /* Detalhes, selos de autoridade e bordas de destaque */
+  --accent-gold: #C5A880; 
+  --accent: #C5A880;
+  --border: #9E8F85;
+  
+  /* Cor principal de ação/CTA (Botões de agendamento e WhatsApp) */
+  --cta-green: #7A8B7B; 
+  --cta-green-hover: #69786A;
+}
+
+@layer utilities {
+  .font-bolder {
+    font-weight: bolder;
+  }
+}
+
+.trust {
+  background: linear-gradient(135deg, var(--accent), #d4b89a);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 28px 0;
+}
+
+/* Container das estatísticas */
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem 1rem;
+  background-color: #EAE3D9; /* Tom neutro/bege conforme a paleta */
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+/* Números e Títulos (CRF, 6 anos, 1500+, 5.0) */
+.stat-number {
+  font-family: 'Cormorant Garamond', 'Playfair Display', serif;
+  font-size: 1.75rem; /* Ajuste conforme o layout mobile/desktop */
+  font-weight: 600;
+  color: #3D322B; /* Marrom escuro da paleta */
+  line-height: 1.2;
+}
+
+/* Rótulos e Textos Complementares (REGISTRO ATIVO, DE PRÁTICA CLÍNICA, etc.) */
+.stat-label {
+  font-family: 'Montserrat', 'Inter', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em; /* Espaçamento entre letras para legibilidade */
+  color: #4A3E3D;
+  margin-top: 0.25rem;
+}
+
+/* Responsividade para mobile */
+@media (max-width: 768px) {
+  .stats-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .stat-number {
+    font-size: 1.5rem;
+  }
+  
+  .stat-label {
+    font-size: 0.7rem;
+  }
+}
