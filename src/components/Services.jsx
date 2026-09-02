@@ -35,10 +35,6 @@ const Services = () => {
       description: "Indicados pra peles sensibilizadas, pós-procedimento e rejuvenescimento avançado."
     },
     {
-      title: "PRF facial e capilar",
-      description: "Derivado do próprio sangue da paciente. Estimula regeneração da pele e atua também na queda capilar."
-    },
-    {
       title: "Microagulhamento",
       description: "Estímulo controlado da pele pra melhorar textura, cicatrizes e manchas."
     },
