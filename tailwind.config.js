@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Lato', 'sans-serif'],
-        serif: ['Playfair Display', 'serif'],
+        sans: ['Plus Jakarta Sans', 'sans-serif'],
+        serif: ['Cormorant Garamond', 'serif'],
       },
       colors: {
         primary: {
