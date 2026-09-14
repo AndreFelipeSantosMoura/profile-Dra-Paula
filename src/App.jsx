@@ -7,6 +7,7 @@ import HowItWorks from './components/HowItWorks';
 import Location from './components/Location';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
+import { trackWhatsAppClick } from './utils/analytics';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         href="https://api.whatsapp.com/send/?phone=5511953443853&text&type=phone_number&app_absent=0&utm_source=ig"
         target="_blank"
         rel="noopener noreferrer"
+        onClick={() => trackWhatsAppClick('Floating')}
         className="fixed bottom-6 right-6 bg-green-600 hover:bg-green-700 text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 z-50 flex items-center justify-center"
         style={{ width: '60px', height: '60px' }}
       >

@@ -1,5 +1,6 @@
 import React from 'react';
 import heroImage from '../img/IMG_6360.jpg';
+import { trackWhatsAppClick } from '../utils/analytics';
 
 const Hero = () => {
   return (
@@ -21,6 +22,7 @@ const Hero = () => {
               href="https://api.whatsapp.com/send/?phone=5511953443853&text&type=phone_number&app_absent=0&utm_source=ig"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => trackWhatsAppClick('Hero')}
               className="inline-block bg-cta-green hover:bg-cta-hover text-white px-8 py-4 rounded-full text-lg font-sans font-bolder transition-colors duration-300 shadow-lg hover:shadow-xl"
             >
               Agendar minha avaliação

@@ -1,4 +1,5 @@
 import React from 'react';
+import { trackWhatsAppClick } from '../utils/analytics';
 
 const Footer = () => {
   return (
@@ -16,6 +17,7 @@ const Footer = () => {
             href="https://api.whatsapp.com/send/?phone=5511953443853&text&type=phone_number&app_absent=0&utm_source=ig"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => trackWhatsAppClick('Footer')}
             className="inline-block bg-cta-green hover:bg-cta-hover text-white px-8 py-4 rounded-full text-lg font-sans font-bolder transition-colors duration-300 shadow-lg hover:shadow-xl"
           >
             Agendar minha avaliação
