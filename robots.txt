@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://institutopaulatavares.com.br/sitemap.xml
+# Updated: 2025-09-22
