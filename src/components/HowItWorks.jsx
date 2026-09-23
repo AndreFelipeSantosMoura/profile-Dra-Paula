@@ -5,7 +5,7 @@ const HowItWorks = () => {
     {
       number: "1",
       title: "Você chama no WhatsApp",
-      description: "Conta um pouco do que te incomoda e agende sua avaliação na HERA ESTETICA."
+      description: "Conta um pouco do que te incomoda e agende sua avaliação no Capital Corporate Offices, Morumbi."
     },
     {
       number: "2",
