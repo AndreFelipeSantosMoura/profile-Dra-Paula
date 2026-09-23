@@ -5,6 +5,7 @@ on:
     branches: ["master", "main"]
   pull_request:
     branches: ["master", "main"]
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -36,6 +37,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          force_orphan: true
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
