@@ -28,7 +28,7 @@ const Hero = () => {
               Agendar minha avaliação
             </a>
             <p className="mt-6 text-sm font-sans text-primary-secondary">
-              Atendimento com hora marcada · HERA ESTETICA - Vila Cordeiro, São Paulo
+              Atendimento com hora marcada · Capital Corporate Offices, Morumbi
             </p>
           </div>
           <div className="flex justify-center md:justify-end">
