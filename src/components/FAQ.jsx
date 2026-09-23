@@ -18,7 +18,7 @@ const FAQ = () => {
     },
     {
       question: "Onde é realizado o atendimento?",
-      answer: "O atendimento é realizado na HERA ESTETICA, localizada na R. Passo da Pátria, 78 - Vila Leopoldina, São Paulo - SP, sempre com hora marcada."
+      answer: "O atendimento é realizado na HERA ESTETICA, localizada na Av. Dr. Chucri Zaidan, 1550 - Vila Cordeiro, São Paulo - SP, sempre com hora marcada."
     }
   ];
 

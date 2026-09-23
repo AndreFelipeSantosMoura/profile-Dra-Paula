@@ -18,7 +18,7 @@ const Location = () => {
           {/* Mapa do Google */}
           <div className="rounded-lg overflow-hidden shadow-lg">
             <iframe
-              src="https://www.google.com/maps?q=R.+Passo+da+Pátria,+78+-+Vila+Leopoldina,+São+Paulo+-+SP,+05085-000&output=embed"
+              src="https://www.google.com/maps?q=Av.+Dr.+Chucri+Zaidan,+1550+-+Vila+Cordeiro,+São+Paulo+-+SP,+04711-130&output=embed"
               width="100%"
               height="400"
               style={{ border: 0 }}
@@ -56,14 +56,14 @@ const Location = () => {
                 <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
               </svg>
               <p className="text-base font-sans text-primary-text">
-                R. Passo da Pátria, 78 - Vila Leopoldina<br />
-                São Paulo - SP, 05085-000
+                Av. Dr. Chucri Zaidan, 1550 - Vila Cordeiro<br />
+                São Paulo - SP, 04711-130
               </p>
             </div>
 
             {/* Botão */}
             <a
-              href="https://www.google.com/maps/search/?api=1&query=Instituto+Paula+Tavares+Vila+Leopoldina+São+Paulo"
+              href="https://www.google.com/maps/search/?api=1&query=Instituto+Paula+Tavares+Vila+Cordeiro+São+Paulo"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg text-base font-sans font-bold transition-colors duration-300 text-center"
