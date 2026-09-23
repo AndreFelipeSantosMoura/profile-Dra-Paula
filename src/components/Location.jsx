@@ -63,7 +63,7 @@ const Location = () => {
 
             {/* Botão */}
             <a
-              href="https://www.google.com/maps/search/?api=1&query=Instituto+Paula+Tavares+Vila+Cordeiro+São+Paulo"
+              href="https://www.google.com/maps/search/?api=1&query=Av.+Dr.+Chucri+Zaidan,+1550+-+São+Paulo+-+SP,+04711-130"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg text-base font-sans font-bold transition-colors duration-300 text-center"
